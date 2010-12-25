@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Amount:</b>
+  <%= @promoter.amount %>
+</p>
+
+<p>
+  <b>Link:</b>
+  <%= @promoter.link %>
+</p>
+
+
+<%= link_to 'Edit', edit_promoter_path(@promoter) %> |
+<%= link_to 'Back', promoters_path %>
